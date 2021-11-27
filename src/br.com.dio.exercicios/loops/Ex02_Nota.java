@@ -7,10 +7,11 @@ Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o us
 um valor válido.
  */
 
-public class Ex02_Nota (int nota){
-    int nota = this.nota;
-    while (nota<0 && nota >10) {
-        System.out.println("");        
+public void class Ex02_Nota (int nota){
+    this.nota = nota;
+    while ((nota < 0) || (nota > 10)) {
+        System.out.println("Valor inválido. Digite uma valor entre 0 e 10."); 
+             
     }
 
 }
