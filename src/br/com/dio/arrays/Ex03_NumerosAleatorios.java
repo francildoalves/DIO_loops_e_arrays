@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.arrays;
+package br.com.dio.arrays;
 
 /*
 ARRAYS MULTIDIMENSIONAIS
@@ -6,5 +6,4 @@ Array Multidimensional: Gere e imprima uma matriz M 4x4 com valores aleatórios 
 Após isso determine o menor número da matriz e a sua posição(linha, coluna).
  */
 
-public class Ex03_NumerosAleatorios {
-}
+//public class Ex03_NumerosAleatorios {}

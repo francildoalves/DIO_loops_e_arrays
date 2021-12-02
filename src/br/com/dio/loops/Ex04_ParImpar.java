@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package br.com.dio.loops;
 
 /*
 DO-WHILE
@@ -6,5 +6,4 @@ Par e Ímpar: Faça um programa que peça N números inteiros. Calcule e mostre 
 pares e a quantidade de números impares.
  */
 
-public class Ex04_ParImpar {
-}
+//public class Ex04_ParImpar {}

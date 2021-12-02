@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.arrays;
+package br.com.dio.arrays;
 
 /*
 ARRAYS UNIDIMENSIONAIS
@@ -6,5 +6,4 @@ Consoantes: Faça um Programa que leia um vetor de 6 caracteres, e diga quantas 
 Imprima as consoantes.
  */
 
-public class Ex02_Consoantes {
-}
+//public class Ex02_Consoantes {}

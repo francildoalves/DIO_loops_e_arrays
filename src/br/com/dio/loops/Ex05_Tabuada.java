@@ -11,5 +11,4 @@ Tabuada de 5:
 5 X 10 = 50
  */
 
-public class Ex05_Tabuada {
-}
+//public class Ex05_Tabuada {}
