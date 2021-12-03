@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package br.com.dio.loops;
 
 /*
 FOR

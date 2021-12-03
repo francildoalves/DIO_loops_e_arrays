@@ -17,9 +17,14 @@ public class Ex01_NomeIdade {
 
 
         while (nomeDoAluno != Integer.toString(0)) {
-            nomeDoAluno =JOptionPane.showInputDialog("Digite o nome do aluno ou ZERO para sair");
-            int idadeDoAluno = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade do aluno:"));
-            //JOptionPane.showMessageDialog(null, "O nome do aluno é: " + nomeDoAluno + " a idade é " + idadeDoAluno);
+            try {
+                nomeDoAluno = JOptionPane.showInputDialog("Digite o nome do aluno ou ZERO para sair");
+                int idadeDoAluno = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade do aluno:"));
+                //JOptionPane.showMessageDialog(null, "O nome do aluno é: " + nomeDoAluno + " a idade é " + idadeDoAluno);
+            } catch (Exception e) {
+                //TODO: handle exception
+            }
+            
         }
 
     }
