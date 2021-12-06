@@ -1,6 +1,6 @@
 package br.com.dio.loops;
 
-import java.text.NumberFormat;
+import javax.swing.JOptionPane;
 
 /*
 WHILE
@@ -9,14 +9,10 @@ e o segundo representando a sua idade. (Pare o programa inserindo o valor 0 no c
  */
 
 
-import javax.swing.JOptionPane;
-
 
 public class Ex01_NomeIdade {
-    public static void main(String[] args) {
-        //Scanner scn = new Scanner(System.in);
+    public static void main(String[] args) {        
         String nomeDoAluno = "";
-
 
         while (nomeDoAluno != Integer.toString(0)) {
             try {
@@ -31,7 +27,8 @@ public class Ex01_NomeIdade {
 
                 } else {
                     int idadeDoAluno = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade do aluno:"));
-                }
+                    JOptionPane.showMessageDialog(null, "O nome do(a) aluno(a) é " + nomeDoAluno.toUpperCase() + " e sua idade é " + idadeDoAluno);
+                }               
                                 
             } catch (NumberFormatException ne) {
                 JOptionPane.showMessageDialog(null, "Digite um número para informar a idade.");
