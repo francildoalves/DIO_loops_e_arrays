@@ -22,7 +22,8 @@ public class Ex01_NomeIdade {
                 int idadeDoAluno = Integer.parseInt(JOptionPane.showInputDialog("Digite a idade do aluno:"));
                 //JOptionPane.showMessageDialog(null, "O nome do aluno é: " + nomeDoAluno + " a idade é " + idadeDoAluno);
             } catch (Exception e) {
-                //TODO: handle exception
+                JOptionPane.showMessageDialog(null, "Ocorreu um erro: " + e.getMessage());
+                break;
             }
             
         }
