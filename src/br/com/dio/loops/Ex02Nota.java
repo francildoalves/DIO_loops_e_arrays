@@ -14,7 +14,7 @@ public class Ex02Nota {
             boolean controle = true;
             while (controle) {
                 int nota = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira uma nota entre 0 e 10"));
-                if ((nota >= 0) && (nota <= 10)) {
+                if ((nota > 0) || (nota < 10)) {
                     controle = false;
                 } else {
                     JOptionPane.showMessageDialog(null, "Valor inválido!", "Mensagem", JOptionPane.WARNING_MESSAGE);
