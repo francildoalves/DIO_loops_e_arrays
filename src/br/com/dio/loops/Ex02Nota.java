@@ -11,9 +11,14 @@ Mostre uma mensagem caso o valor seja inválido e continue pedindo até que o us
 public class Ex02Nota {
     public static void main(String[] args) {
         try {
-            int nota = 0;
-            while ((0 >= nota) && (nota <= 10)) {
-                nota = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira uma nota entre 0 e 10"));                
+            boolean controle = true;
+            while (controle) {
+                int nota = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira uma nota entre 0 e 10"));
+                if ((nota >= 0) && (nota <= 10)) {
+                    controle = false;
+                } else {
+                    JOptionPane.showMessageDialog(null, "Valor inválido!", "Mensagem", JOptionPane.WARNING_MESSAGE);
+                }
             }
         } catch (Exception e) {
             JOptionPane.showMessageDialog(null, "ERRO: " + e.getMessage(), "Erro", JOptionPane.ERROR_MESSAGE);
