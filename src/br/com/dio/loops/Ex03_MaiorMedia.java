@@ -29,18 +29,14 @@ public class Ex03_MaiorMedia {
             vetor[controle] = ler.nextInt();
             controle++;
         } while (controle < qdeNumero);
-
-        public void maior_Numero() {
-
-        for (int i = 0; i < qdeNumero; i++) {
-            System.out.printf("Número %d ", vetor[i]);
-            System.out.println();
-            int maiorNumero = vetor[i];
-            if (maiorNumero > vetor[i]){
-                maiorNumero = vetor[i];
+            int maiorNumero = 0;
+            for (int i = 0; i < qdeNumero; i++) {
+                if (maiorNumero < vetor[i]){
+                    maiorNumero = vetor[i];
+                }
             }
+            System.out.printf("O maior número é %d ", maiorNumero);
 
-        }
-        System.out.println(maiorNumero);
+
     }
 }
