@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1aa32ef-3de4-4bbb-af86-9a136b9ab378" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/com/dio/loops/Ex01_NomeIdade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/loops/Ex01_NomeIdade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/com/dio/loops/Ex03_MaiorMedia.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/loops/Ex03_MaiorMedia.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Ex03_MaiorMedia">
     <configuration name="Ex01_NomeIdade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.com.dio.loops.Ex01_NomeIdade" />
       <module name="DIO_loops_e_arrays" />
@@ -43,8 +43,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Ex03_MaiorMedia" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.dio.loops.Ex03_MaiorMedia" />
+      <module name="DIO_loops_e_arrays" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.dio.loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Ex03_MaiorMedia" />
         <item itemvalue="Application.Ex01_NomeIdade" />
       </list>
     </recent_temporary>

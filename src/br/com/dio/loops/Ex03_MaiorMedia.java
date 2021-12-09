@@ -1,8 +1,46 @@
 package br.com.dio.loops;
 
+import java.util.Scanner;
+
 /*
 DO-WHILE
 Maior e Média: Faça um programa que leia 5 números e informe o maior número e a média desses números.
  */
 
-//public class Ex03_MaiorMedia {}
+public class Ex03_MaiorMedia {
+    public static void main(String[] args) {
+        //Variáveis
+        int qdeNumero = 5;
+        int vetor[] = new int[qdeNumero];
+
+        Scanner ler = new Scanner(System.in);
+
+        //Recebendo os números do cliente
+        /*
+        for (int i = 0; i < qdeNumero; i++) {
+            System.out.printf("Informe o %dº número: ", (i + 1));
+            vetor[i] = ler.nextInt();
+        }
+        */
+
+        int controle = 0;
+        do {
+            System.out.printf("Informe o %dº número: ", (controle + 1));
+            vetor[controle] = ler.nextInt();
+            controle++;
+        } while (controle < qdeNumero);
+
+        public void maior_Numero() {
+
+        for (int i = 0; i < qdeNumero; i++) {
+            System.out.printf("Número %d ", vetor[i]);
+            System.out.println();
+            int maiorNumero = vetor[i];
+            if (maiorNumero > vetor[i]){
+                maiorNumero = vetor[i];
+            }
+
+        }
+        System.out.println(maiorNumero);
+    }
+}
