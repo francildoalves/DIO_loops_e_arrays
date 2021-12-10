@@ -16,14 +16,8 @@ public class Ex03_MaiorMedia {
         Scanner ler = new Scanner(System.in);
 
         //Recebendo os números do cliente
-        /*
-        for (int i = 0; i < qdeNumero; i++) {
-            System.out.printf("Informe o %dº número: ", (i + 1));
-            vetor[i] = ler.nextInt();
-        }
-        */
-
         int controle = 0;
+        int soma = 0;
         do {
             System.out.printf("Informe o %dº número: ", (controle + 1));
             vetor[controle] = ler.nextInt();
@@ -31,12 +25,20 @@ public class Ex03_MaiorMedia {
         } while (controle < qdeNumero);
             int maiorNumero = 0;
             for (int i = 0; i < qdeNumero; i++) {
-                if (maiorNumero < vetor[i]){
+                soma = soma + vetor[i]; // Soma os números no vetor
+
+                /*
+                * Verifica qual é o maior número
+                */
+                if (maiorNumero < vetor[i]) {
                     maiorNumero = vetor[i];
                 }
             }
-            System.out.printf("O maior número é %d ", maiorNumero);
-
-
+            System.out.println("-----------------------------");
+            System.out.printf("O maior número .....:  %d", maiorNumero);
+            System.out.println();
+            System.out.printf("A soma dos números .: %d", soma);
+            System.out.println();
+            System.out.println("-----------------------------");
     }
 }
