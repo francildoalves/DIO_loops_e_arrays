@@ -23,22 +23,23 @@ public class Ex03_MaiorMedia {
             vetor[controle] = ler.nextInt();
             controle++;
         } while (controle < qdeNumero);
-            int maiorNumero = 0;
-            for (int i = 0; i < qdeNumero; i++) {
-                soma = soma + vetor[i]; // Soma os números no vetor
 
-                /*
-                * Verifica qual é o maior número
-                */
-                if (maiorNumero < vetor[i]) {
-                    maiorNumero = vetor[i];
-                }
+        int maiorNumero = 0;
+        for (int i = 0; i < qdeNumero; i++) {
+            soma = soma + vetor[i]; // Soma os números no vetor
+            /*
+            * Verifica qual é o maior número
+            */
+            if (maiorNumero < vetor[i]) {
+                maiorNumero = vetor[i];
             }
-            System.out.println("-----------------------------");
-            System.out.printf("O maior número .....:  %d", maiorNumero);
-            System.out.println();
-            System.out.printf("A soma dos números .: %d", soma);
-            System.out.println();
-            System.out.println("-----------------------------");
+        }
+
+        System.out.println("------------------------");
+        System.out.printf("Maior número .....: %d", maiorNumero);
+        System.out.println();
+        System.out.printf("Média.............: %d", (soma/qdeNumero));
+        System.out.println();
+        System.out.println("------------------------");
     }
 }
