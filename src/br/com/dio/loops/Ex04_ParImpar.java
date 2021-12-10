@@ -14,14 +14,30 @@ public class Ex04_ParImpar {
         Scanner leia = new Scanner(System.in);
 
         try {
-            boolean continuar = true;
             int contador = 0;
-            int vetor[] = new int[contador];
+            int qdeNumeros = 0;
+            int numPar = 0;
+            int numImpar = 0;
+            System.out.print("Digite quantos números serão testados: ");
+            qdeNumeros = leia.nextInt();
+            int vetor[] = new int[qdeNumeros];
+
             do {
-                System.out.println("Digite um número: ");
+                System.out.printf("Digite o %dº número: ", contador + 1);
                 vetor[contador] = leia.nextInt();
+
+                //Verificando PAR ou IMPAR
+                if (vetor[contador]%2 == 0) { numPar++; }
+                else { numImpar++; }
                 contador++;
-            } while (continuar);
+            } while (contador < qdeNumeros);
+
+            //Total de números PARES e IMPARES
+            System.out.println("-----------------------------------");
+            System.out.println("Quantidade de números PARES ...: " + numPar);
+            System.out.println("Quantidade de números IMPARES .: " + numImpar);
+            System.out.println("-----------------------------------");
+
         } catch (NumberFormatException ne) {
             System.out.println("Informe um número inteiro" + ne.getMessage());
         } catch (Exception e) {
