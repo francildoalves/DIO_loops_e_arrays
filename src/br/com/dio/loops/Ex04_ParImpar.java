@@ -38,7 +38,7 @@ public class Ex04_ParImpar {
             System.out.println("Quantidade de números IMPARES .: " + numImpar);
             System.out.println("-----------------------------------");
 
-        } catch (NumberFormatException ne) {
+        } catch (NumberFormatException ne) { //Tratamento de exceções
             System.out.println("Informe um número inteiro" + ne.getMessage());
         } catch (Exception e) {
             System.out.println("ERRO: " + e.getMessage());
