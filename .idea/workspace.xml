@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d1aa32ef-3de4-4bbb-af86-9a136b9ab378" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DIO_loops_e_arrays/br/com/dio/loops/Ex04_ParImpar.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DIO_loops_e_arrays/br/com/dio/loops/Ex04_ParImpar.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/br/com/dio/loops/Ex04_ParImpar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/com/dio/loops/Ex04_ParImpar.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
