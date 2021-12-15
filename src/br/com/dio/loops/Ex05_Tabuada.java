@@ -18,18 +18,24 @@ public class Ex05_Tabuada {
     public static void main(String[] args) {
         Scanner leia = new Scanner(System.in);
 
-        //Tabuada de SOMAR
-        public void somar(int n) {
-            this.n = n;
-        }
-
 
         try {
-            System.out.printfln("Digite um número inteiro entre 1 e 10: ");
+            System.out.printf("Digite um número inteiro entre 1 e 10: ");
             int numero = leia.nextInt();
 
+            //Tabuada de SOMAR
+            System.out.println("Tabuada de SOMAR");
             for (int i = 0; i <= 10; i++) {
-                System.out.println("$d + d$ = ", numero, i, + (numero + i));
+                System.out.printf("%d + %d = %d", i, numero, + (numero + i));
+                System.out.println();
+            }
+            System.out.println();
+
+            //Tabuada de SUBTRAIR
+            System.out.println("Tabuada de SUBTRAIR");
+            for (int i = 0; i <= 10; i++) {
+                System.out.printf("%d - %d = %d", i, numero, + (numero - i));
+                System.out.println();
             }
         } catch (Exception e) {
             System.out.println("ERRO: " + e.getMessage());
