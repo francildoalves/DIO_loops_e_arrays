@@ -37,6 +37,15 @@ public class Ex05_Tabuada {
                 System.out.printf("%d - %d = %d", i, numero, + (numero - i));
                 System.out.println();
             }
+            System.out.println();
+
+            //Tabuada de MULTIPLICAR
+            System.out.println("Tabuada de SUBTRAIR");
+            for (int i = 0; i <= 10; i++) {
+                System.out.printf("%d X %d = %d", i, numero, + (numero * i));
+                System.out.println();
+            }
+            System.out.println();
         } catch (Exception e) {
             System.out.println("ERRO: " + e.getMessage());
         } //Fim do catch
